@@ -1,0 +1,279 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+    
+    box-sizing: border-box;
+
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+}
+
+header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.header-container ul{
+    display: flex;
+}
+
+.header-container ul li{
+    list-style: none;
+    margin: 0 .5rem;
+
+}
+
+.header-container ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.header-container ul li a:hover{
+    color: gray;
+}
+
+.hero{
+    height: 400px;
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.hero .hero-content{
+    position: absolute ;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero .hero-content img{
+    width: 120px;
+    height: 150px;
+    margin: .5rem;
+}
+
+.hero .hero-content .up {
+    padding-bottom: 3rem;
+}
+
+.hero .hero-content .down{
+    padding-top: 3rem;
+}
+
+.lead{
+    text-align: center;
+    margin: 2rem 4rem;
+}
+
+.lead *{
+    margin-bottom: 1rem;
+}
+
+
+.wrapper h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: cadetblue;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: cadetblue;
+}
+
+.brands img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 15px;
+}
+
+.pricing {
+    background-color: #363636;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.price-card {
+    margin: 10px;
+    padding: 0 20px;
+}
+
+.price-card h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.price-card p {
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.price-card .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-card .info span:last-of-type {
+    color: gray;
+}
+
+.price-card .price-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.quote {
+    background-color: cadetblue;
+    padding: 50px 15px;
+    color: #fff;
+}
+
+.quote .comment {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.quote .author {
+    text-align: center;
+    opacity: .5;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    background-color: chocolate;
+    padding: 60px 30px;
+}
+
+.form .form-detail {
+    color: #fff;
+    width: 40%;
+    padding: 0 40px;
+}
+
+.form .form-detail h4 {
+    margin-bottom: 2rem;
+    font-size: 18px;
+}
+
+.form .form-detail p {
+    font-size: 14px;
+}
+
+.form .form-list {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.form .form-list .form-input {
+    width: 50%;
+    padding: 5px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form .form-list .form-textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.form-btn {
+    color: chocolate;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+.form-btn:hover {
+    background-color: transparent;
+    color: #fff;
+
+}
+
+footer {
+    background-color: cadetblue;
+    color: #fff;
+    text-align: center;
+    padding: 50px 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-center {
+    justify-content: center;
+}
